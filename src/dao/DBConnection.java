@@ -10,6 +10,7 @@ public class DBConnection {
 	private static final String DBUSER = "root";
 	private static final String DBPASS = "123456";
 	//llb的更改
+	//scllb的更改
 	private Connection conn =null;
 	
 	public DBConnection() throws ClassNotFoundException, SQLException {
