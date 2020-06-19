@@ -9,7 +9,7 @@ public class DBConnection {
 	private static final String DBURL = "jdbc:mysql://localhost:3306/hospitalizationsystem?useUncode=true&characterEncoding=utf-8";
 	private static final String DBUSER = "root";
 	private static final String DBPASS = "123456";
-
+	//llb的更改
 	private Connection conn =null;
 	
 	public DBConnection() throws ClassNotFoundException, SQLException {
